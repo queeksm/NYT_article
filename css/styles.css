@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: normal;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  letter-spacing: normal;
+  line-height: 48px;
+  text-align: start;
+}
+
+.navbar {
+  border: 1px solid red;
+  height: 75px;
+  
+}
+
+.navbar ul {
+  border: 1px solid red;
+  width: 80%;
+}
+
+.navbar ul li {
+  border: 1px solid red;
+  width: 50px;
+  float: left;
+}

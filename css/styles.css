@@ -238,10 +238,57 @@ li[rel~="right"] {
   color: #000000;
 }
 
+.maxwidth {
+  width: 90%;
+  margin: 0 auto;
+  margin-left: 285px;
+}
+
 .mainContent .mar50 p {
   font-size: 1.3rem;
   line-height: 1.3;
   text-align: left;
+}
+
+.mainContent .left {
+  float: left;
+  width: 54%;
+}
+
+.mainContent aside {
+  float: right;
+  width: 25%;
+  margin-right: 166px;
+}
+
+aside div {
+  width: 100%;
+}
+
+aside div img {
+  width: 100%;
+}
+
+.details {
+  padding: 3px;
+  margin-top: 5px;
+}
+
+.details span {
+  font-size: 10px;
+  color: #666666;
+  display: block;
+  text-align: right;
+}
+
+.details p {
+  margin: 5px 0px 3px 0px;
+  font-size: 15px;
+}
+
+.details small {
+  color: #666666;
+  font-size: 12px;
 }
 
 /*Theory of inflation*/
@@ -357,7 +404,7 @@ li[rel~="right"] {
 
 .mar50 ul {
   list-style: none;
-  margin-left: 350px;
+  margin-left: 340px;
 }
 
 .mar50 ul li {
@@ -376,4 +423,45 @@ li[rel~="right"] {
   width: 100%;
   display: inline-block;
   border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.additionalArticles {
+  margin-top: 20px;
+
+}
+
+.additionalArticles .space {
+  float: left;
+  border-top: 1px solid rgba(0,0,0,1);
+  width: 65%;
+  margin-right: 25px;
+}
+
+.additionalArticles .space .details{
+  width: 102%;
+}
+
+.additionalArticles .space div {
+  float: left;
+  width: 33.3%;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+.additionalArticles .space img {
+  width: 100%;
+}
+
+.additionalArticles .mostPop {
+  float: right;
+  border-top: 1px solid rgba(0,0,0,1);
+  width: 30%;
+}
+
+.additionalArticles .mostPop p {
+  font-size: 20px;
+  font-weight: 400;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin: 10px 0;
+  padding: 10px 0px;
 }

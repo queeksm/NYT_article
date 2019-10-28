@@ -28,6 +28,16 @@ h2 {
 .mar50 {
   margin-top: 50px;
 }
+
+figure {
+  margin: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 /* END */
 
 /* HEADER */
@@ -72,7 +82,7 @@ li[rel~="right"] {
 
 .navbar ul li[rel="img"] {
   margin: 0;
-  padding: 0 440px;
+  padding: 0 400px;
 }
 
 .navbar ul li.link {
@@ -227,9 +237,68 @@ li[rel~="right"] {
   text-align: left;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+/*Theory of inflation*/
+
+.theory {
+  width: 85%;
+  margin: 0 auto;
 }
+
+.theory h3 {
+  margin: 2px;
+}
+
+.theory .description {
+  font-size: 14px;
+  color: #666666;
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.theory .img {
+  position: relative;
+}
+
+.theory .img img {
+  width: 100%;
+}
+
+.theory .info {
+  position: absolute;
+  top: 21%;
+  left: 1%;
+}
+
+.theory .bottom {
+  position: absolute;
+  top: 72%;
+  left: 1%;
+}
+
+.theory .info .left {
+  float: left;
+  width: 25%;
+  margin: 0;
+  padding: 3px 5px;
+  font-size: 14px;
+}
+
+.info .left span {
+  font-weight:bold;
+}
+
+.theory .author {
+  font-size: 13px;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+.articleImg .img {
+  width: 100%;
+}
+
+.articleImg img {
+  width: 100%;
+}
+
 

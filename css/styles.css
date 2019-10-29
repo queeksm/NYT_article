@@ -1,12 +1,12 @@
 /* GLOBAL */
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 h1 {
@@ -28,6 +28,7 @@ h2 {
 p {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 .mar50 {
   margin-top: 50px;
 }
@@ -45,13 +46,14 @@ figure {
 .clear {
   clear: both;
 }
+
 /* END */
 
 /* HEADER */
 .header {
   height: 42px;
   border-bottom: 1px solid #e2e2e2;
-  background: #ffffff;
+  background: #fff;
   position: fixed;
   width: 100%;
   top: 0;
@@ -73,13 +75,13 @@ figure {
 .navbar ul li {
   list-style: none;
   float: left;
-  margin: 12px 0px;
+  margin: 12px 0;
   cursor: pointer;
 }
 
 .navbar ul li[rel~="left"],
 li[rel~="right"] {
-  padding: 0px 14px;
+  padding: 0 14px;
 }
 
 .navbar ul li[rel~="fz09"] {
@@ -93,7 +95,7 @@ li[rel~="right"] {
 }
 
 .navbar ul li.link {
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: bold;
   color: #494949;
   opacity: 0.7;
@@ -106,7 +108,7 @@ li[rel~="right"] {
 
 .navbar ul li[rel~="fz09"].und:hover {
   text-decoration: underline;
-} 
+}
 
 .navbar ul li.under {
   text-decoration: underline;
@@ -120,7 +122,7 @@ li[rel~="right"] {
   background: #0f0f0f;
   width: 62px;
   padding: 8px;
-  color: #ffffff;
+  color: #fff;
   border-radius: 3px;
   border: 1px solid #0f0f0f;
   font-size: 12px;
@@ -133,7 +135,6 @@ li[rel~="right"] {
 }
 
 /* END */
-
 
 /* WRAP */
 
@@ -179,23 +180,21 @@ li[rel~="right"] {
 
 .imgfooter span {
   font-size: 15px;
-  color: #666666;
+  color: #666;
 }
 
 .imgfooter span.author {
   font-size: 13px;
-  color: #888888;
+  color: #888;
 }
 
 .mainContent {
   width: 50%;
   margin: 0 auto;
   margin-top: -35px;
-  /* background: red; */
 }
 
 .menu {
-  /* background: #494949; */
   height: 30px;
 }
 
@@ -209,14 +208,13 @@ li[rel~="right"] {
 }
 
 .mainContent .menu .left {
- float: left;
- margin-top: 5px;
- font-size: 13px;
+  float: left;
+  margin-top: 5px;
+  font-size: 13px;
 }
 
 .mainContent .menu .right {
   float: right;
-  /* background: gray; */
   height: 30px;
 }
 
@@ -228,14 +226,14 @@ li[rel~="right"] {
 .right ul li {
   float: left;
   padding: 5px;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   margin-right: 15px;
   font-size: 18px;
 }
 
 .right ul li a {
-  color: #000000;
+  color: #000;
 }
 
 .maxwidth {
@@ -276,22 +274,22 @@ aside div img {
 
 .details span {
   font-size: 10px;
-  color: #666666;
+  color: #666;
   display: block;
   text-align: right;
 }
 
 .details p {
-  margin: 5px 0px 3px 0px;
+  margin: 5px 0 3px 0;
   font-size: 15px;
 }
 
 .details small {
-  color: #666666;
+  color: #666;
   font-size: 12px;
 }
 
-/*Theory of inflation*/
+/* Theory of inflation */
 
 .theory {
   width: 85%;
@@ -304,7 +302,7 @@ aside div img {
 
 .theory .description {
   font-size: 14px;
-  color: #666666;
+  color: #666;
   margin: 0;
   margin-bottom: 3px;
 }
@@ -338,7 +336,7 @@ aside div img {
 }
 
 .info .left span {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .theory .author {
@@ -361,11 +359,11 @@ aside div img {
 
 .video .description span {
   font-size: 15px;
-  color: #666666;
+  color: #666;
 }
 
 .video .description p.author {
-  color: #888888;
+  color: #888;
   margin-top: 0;
   font-size: 14px;
 }
@@ -385,21 +383,21 @@ aside div img {
 
 .imgfooter span {
   font-size: 14px;
-  color: #666666;
+  color: #666;
 }
 
 .imgfooter span.author {
   font-size: 13px;
-  color: #888888;
+  color: #888;
 }
 
 .mar50 span {
-  color: #666666;
+  color: #666;
   font-size: 12px;
 }
 
 .mar50 span a {
-  color: #666666;
+  color: #666;
 }
 
 .mar50 ul {
@@ -411,28 +409,27 @@ aside div img {
   float: left;
   margin-right: 25px;
   padding: 5px;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
 
 .mar50 ul li a {
-  color: #000000;
+  color: #000;
 }
 
 .border {
   width: 100%;
   display: inline-block;
-  border-bottom: 1px solid rgba(0,0,0,0.3);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .additionalArticles {
   margin-top: 20px;
-
 }
 
 .additionalArticles .space {
   float: left;
-  border-top: 1px solid rgba(0,0,0,1);
+  border-top: 1px solid rgba(0, 0, 0, 1);
   width: 65%;
   margin-right: 25px;
 }
@@ -442,7 +439,7 @@ aside div img {
   margin: 0;
 }
 
-.additionalArticles .space .details{
+.additionalArticles .space .details {
   width: 102%;
 }
 
@@ -459,16 +456,16 @@ aside div img {
 
 .additionalArticles .mostPop {
   float: right;
-  border-top: 1px solid rgba(0,0,0,1);
+  border-top: 1px solid rgba(0, 0, 0, 1);
   width: 30%;
 }
 
 .additionalArticles .mostPop p {
   font-size: 20px;
   font-weight: 400;
-  border-top: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin: 10px 0;
-  padding: 10px 0px;
+  padding: 10px 0;
 }
 
 footer {
@@ -498,8 +495,8 @@ footer {
 .footer header p {
   float: right;
   font-size: 13px;
-  color: #888888;
-  margin-top: 15px
+  color: #888;
+  margin-top: 15px;
 }
 
 .footer section {
@@ -516,10 +513,9 @@ footer {
   margin-top: 20px;
 }
 
-
 .footer section:last-child {
   margin-right: 0;
-  border-left: 1px solid rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px;
 }
 
@@ -534,7 +530,7 @@ footer {
 }
 
 .footer section:last-child li a[rel~="border"] {
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   padding-bottom: 12px;
 }
 
@@ -554,7 +550,7 @@ footer {
 
 .footer section ul li a {
   text-decoration: none;
-  color: #000000;
+  color: #000;
   font-size: 14px;
   margin-bottom: 4px;
 }
@@ -564,7 +560,7 @@ footer {
 }
 
 .footer .menuFooter {
-  border-top: 1px solid rgba(0,0,0,0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .footer .menuFooter ul {
@@ -581,7 +577,7 @@ footer {
 }
 
 .footer .menuFooter ul li a {
-  color: #999999;
+  color: #999;
   font-size: 11px;
   text-decoration: none;
 }

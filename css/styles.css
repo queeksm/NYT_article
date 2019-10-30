@@ -274,7 +274,6 @@ li[rel~="right"] {
 .maxwidth {
   width: 90%;
   margin: 0 auto;
-  margin-left: 285px;
 }
 
 .mainContent .mar50 p {
@@ -285,13 +284,15 @@ li[rel~="right"] {
 
 .mainContent .left {
   float: left;
-  width: 54%;
+  width: 64%;
+  margin-left: 15%;
+  margin-right: 0;;
 }
 
 .mainContent aside {
   float: right;
-  width: 25%;
-  margin-right: 166px;
+  width: 20%;
+  margin-left: 0;
 }
 
 aside div {
@@ -437,16 +438,42 @@ aside div img {
 
 .mar50 ul {
   list-style: none;
-  margin-left: 340px;
+  padding: 0;
+}
+
+.mar50 ul .btnright {
+  float: left;
+  color: white;
+  width: 50%;
+  margin: 0;
+}
+
+.mar50 ul .btnright button {
+  background: #386b92;
+  padding: 9px 40px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 3px;
+  border: 1px solid rgb(50, 104, 145);
 }
 
 .mar50 ul li {
   float: left;
   margin-right: 25px;
-  padding: 5px;
+  padding: 7px;
   background: rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
+
+.mar50 ul li.ml30 {
+  margin-left: 40px;
+}
+
+.mar50 ul li:last-child {
+  margin-right: 0;
+}
+
 
 .mar50 ul li a {
   color: #000;
@@ -459,6 +486,7 @@ aside div img {
 
 .additionalArticles {
   margin-top: 20px;
+  padding: 10px 50px;
 }
 
 .additionalArticles .space {
@@ -714,6 +742,18 @@ footer {
 }
 
 @media (max-width: 1140px) {
+  .space:nth-child(2n+1) {
+    float: left;
+    margin: 0;
+    width: 100%;
+  }
+
+  .additionalArticles .mostPop {
+    float: left;
+    border-top: 1px solid rgba(0, 0, 0, 1);
+    width: 100%;
+  }
+
   .minScreeen {
     display: block !important;
   }
@@ -760,11 +800,20 @@ footer {
   .maxwidth {
     width: 100%;
     margin-left: 0;
+    margin: 0 auto;
   }
 
   .mainContent .left {
-    width: 100%;
+    float: none;
+    width: 80%;
     padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  .mainContent aside {
+    width: 50%;
+    margin: 0 auto;
+    float: none;
   }
 }
 

@@ -161,9 +161,11 @@ li[rel~="right"] {
 
 /* TITLE */
 .title {
-  margin-top: 40px;
-  display: inline-block;
-  width: 100%;
+  font-weight: bold;
+}
+
+.mainContent .mar50 .title p {
+  font-size: 1.1rem;
 }
 
 .title h2 {
@@ -171,6 +173,7 @@ li[rel~="right"] {
   font-size: 2.4rem;
   text-align: center;
   margin-bottom: 0;
+  margin-top: 90px;
 }
 
 .title h2 span {
@@ -228,9 +231,10 @@ li[rel~="right"] {
 }
 
 .menu {
-  height: 30px;
+  width: 100%;
   margin: 0 auto;
-  width: 51%;
+  height: 50px;
+  margin-bottom: 30px;
 }
 
 .center .title {
@@ -409,7 +413,7 @@ aside div img {
 }
 
 .articleImg .img {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -430,22 +434,34 @@ aside div img {
 .mar50 span {
   color: #666;
   font-size: 12px;
+  float: left;
+  margin-top: 15px;
 }
 
 .mar50 span a {
   color: #666;
 }
 
+.mar50 ul.socialMenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  float: right;
+  margin: 0;
+}
+
 .mar50 ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
-.mar50 ul .btnright {
+.mar50 ul.bottomNav .btnright {
   float: left;
   color: white;
   width: 50%;
   margin: 0;
+  margin-top: 20px;
 }
 
 .mar50 ul .btnright button {
@@ -458,22 +474,38 @@ aside div img {
   border: 1px solid rgb(50, 104, 145);
 }
 
-.mar50 ul li {
+.mar50 ul.bottomNav li {
   float: left;
-  margin-right: 25px;
+  margin-right: 13px;
+  padding: 7px;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.mar50 ul.socialMenu li {
+  float: left;
+  margin-right: 13px;
   padding: 7px;
   background: rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
 
+.mar50 ul li:last-child,
+.mar50 ul li:nth-child(5) {
+  background: none;
+  font-size: 22px;
+  margin-right: 7px;
+  padding: 4px 6px 3px 10px;
+}
+
 .mar50 ul li.ml30 {
-  margin-left: 40px;
+  margin-left: 80px;
 }
 
 .mar50 ul li:last-child {
   margin-right: 0;
 }
-
 
 .mar50 ul li a {
   color: #000;
@@ -486,7 +518,7 @@ aside div img {
 
 .additionalArticles {
   margin-top: 20px;
-  padding: 10px 50px;
+  padding: 10px 25px;
 }
 
 .additionalArticles .space {
@@ -670,10 +702,13 @@ footer {
   text-align: center;
   margin: 0 auto;
   cursor: pointer;
+  display: block;
 }
 
 .footer .menuFooter ul {
-  margin: 0;
+  display: table;
+  height: 40px;
+  margin: 0 auto;
 }
 
 .footer .menuFooter ul li {
@@ -712,6 +747,14 @@ footer {
 }
 
 @media (max-width: 1300px) {
+  .theory .img {
+    height: 700px;
+  }
+
+  .theory .img img {
+    height: 100%;
+  }
+
   .footer .maxScreen {
     height: 460px;
   }
@@ -792,6 +835,14 @@ footer {
 }
 
 @media (max-width: 1024px) {
+  .theory .img {
+    height: 900px;
+  }
+
+  .mt40 {
+    margin-top: 100px !important;
+  }
+
   .wrap {
     width: 100%;
     margin-top: 10px;
@@ -800,13 +851,6 @@ footer {
   .maxwidth {
     width: 100%;
     margin-left: 0;
-    margin: 0 auto;
-  }
-
-  .mainContent .left {
-    float: none;
-    width: 80%;
-    padding: 0 15px;
     margin: 0 auto;
   }
 
@@ -836,11 +880,27 @@ footer {
     font-size: 1.9rem;
     line-height: 1.1;
     margin-left: 20px;
-    margin-top: 35px;
+    margin-top: 70px;
   }
 }
 
 @media (max-width: 768px) {
+  .theory .img {
+    height: 1000px;
+  }
+
+  .theory .info {
+    top: 25%;
+  }
+
+  .theory .bottom {
+    top: 73%;
+  }
+
+  .mt40 {
+    margin-top: 10px !important;
+  }
+
   .footer .menuFooter div.copy {
     width: 40%;
   }
@@ -859,5 +919,35 @@ footer {
 
   .navbar .center {
     width: 50%;
+  }
+
+  .mainContent .left {
+    float: none;
+    width: 95%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 620px) {
+  .theory {
+    display: none;
+  }
+
+  .mar50 ul .btnright {
+    float: none !important;
+    width: 100% !important;
+  }
+
+  .mar50 ul .btnright button {
+    margin-top: 20px;
+  }
+
+  .mar50 ul li.ml30 {
+    margin-left: 0;
+  }
+
+  .mar50 ul li {
+    margin-top: 12px;
   }
 }

@@ -34,7 +34,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- [![Product Name Screen Shot][product-screenshot]](img/logoRepo.png) -->
+![Screenshot Image](img/logoRepo.png)
 
 This is a clone page that has a pretty clean style with some responsive features.
 This is a clone of a NYT article 

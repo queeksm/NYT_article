@@ -91,6 +91,14 @@ figure {
   width: 100%;
 }
 
+.hero .img img {
+  width: 100%;
+}
+
+.theory .img img {
+  width: 100%;
+}
+
 .navbar .center div img {
   margin-left: 10vh;
 }
@@ -376,10 +384,6 @@ li[rel~="right"] {
 
 .theory .img {
   position: relative;
-}
-
-.theory .img img {
-  width: 100%;
 }
 
 .theory .info {
@@ -750,10 +754,6 @@ footer {
   }
 
   aside div img {
-    width: 100%;
-  }
-
-  .hero .img img {
     width: 100%;
   }
 

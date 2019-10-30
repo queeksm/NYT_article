@@ -540,7 +540,7 @@ li[rel~="right"] {
 }
 
 .additionalArticles .space .details {
-  width: 102%;
+  width: 70%;
 }
 
 .additionalArticles .space div {
@@ -707,6 +707,10 @@ footer {
 /* MEDIAS */
 
 @media (max-width: 1400px) {
+  .additionalArticles .space .details {
+    width: 100%;
+  }
+
   .wrap {
     width: 80%;
   }

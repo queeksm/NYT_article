@@ -267,6 +267,10 @@ li[rel~="right"] {
   margin: 0;
 }
 
+.hero .img img {
+  width: 100%;
+}
+
 .hero .imgfooter {
   margin-top: 6px;
   width: 74%;
@@ -372,6 +376,10 @@ li[rel~="right"] {
 
 .theory .img {
   position: relative;
+}
+
+.theory .img img {
+  width: 100%;
 }
 
 .theory .info {
@@ -751,6 +759,7 @@ footer {
 
   .theory .img img {
     width: 100%;
+    height: 100%;
   }
 
   .additionalArticles .space img {
